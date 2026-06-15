@@ -44,6 +44,8 @@ function Home() {
       
       <h2>Guerreiros Transformados: {qtdTransformados}</h2>
 
+      <p>Clique nos cards para transforma-los!</p>
+
       <section id="center">
         {listaDragonBalls.map((dragonball) => (
           <DragonBallCard
