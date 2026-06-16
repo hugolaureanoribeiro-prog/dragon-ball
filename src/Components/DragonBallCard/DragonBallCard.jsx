@@ -51,17 +51,15 @@ function DragonBallCard({nome, imagem, estagio, transformado, transformarDragonB
          <div className='CardDragonBall'>
             
             <button onClick={transformarDragonBall}>
-
-            
             <img 
             src={imagem} 
             alt={nome} title={nome}
-            
             className={`dragonballImagem ${definirAura()}`}
             />
             </button>
             
             <div>
+              
               <h2>{nome}</h2>
               <p>Estágio: {estagio}</p>
             </div>

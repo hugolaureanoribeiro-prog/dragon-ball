@@ -8,10 +8,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route 
-        path="/hugo-react/" 
+        path="/dragon-ball/" 
         element={<Home />} />
         <Route 
-        path="/hugo-react/:dragonballId" 
+        path="/dragon-ball/:dragonballId" 
         element={<DragonBall />} 
         />
       </Routes>
